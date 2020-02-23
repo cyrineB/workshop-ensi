@@ -8,9 +8,9 @@ workflows:
       - build
       - deploy_production:
 
-        requires:
+         requires:
 
-          - build
+           - build
 
 jobs:
   build:
